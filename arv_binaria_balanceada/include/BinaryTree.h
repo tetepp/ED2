@@ -31,8 +31,13 @@ private:
     void root_left_right(TreeNode* node);
     void left_root_right(TreeNode* node);
     void left_right_root(TreeNode* node);
+    //void ll(TreeNode* node);
+    //void lr(TreeNode* node);
+    //void rr(TreeNode* node);
+    //void rl(TreeNode* node);
+    TreeNode* findParent(TreeNode* current, TreeNode* child);
     int lenghtTree(TreeNode* node);
-    int getHeight(TreeNode* node); // Novo método para calcular altura
+    int getHeight(TreeNode* node);
 
 public:
     BinaryTree();
@@ -42,7 +47,7 @@ public:
     void printPreOrder();
     void printInOrder();
     void printPostOrder();
-    void printHierarchy();
+    void print();
     int getTreeSize();
 };
 

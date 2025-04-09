@@ -8,10 +8,12 @@ int main() {
     tree.insertVal(4);
     tree.insertVal(10);
     tree.insertVal(9);
+    tree.insertVal(8);
+    tree.insertVal(7);
 
     std::cout << "\n\n" << std::endl;
     std::cout << "Arvore AVL" << std::endl;
-    tree.printHierarchy();
+    tree.print();
 
     return 0;
 }
